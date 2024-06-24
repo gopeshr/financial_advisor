@@ -11,7 +11,7 @@ import shutil
 import base64
 from pydantic import BaseModel
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "lumen-b-ctl-047-e2aeb24b0ea0.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "google-sevice-account.json"
 
 app = FastAPI()
 app.add_middleware(
